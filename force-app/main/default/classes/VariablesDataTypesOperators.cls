@@ -260,7 +260,7 @@ public with sharing class VariablesDataTypesOperators {
      * @return The quotient as a casted (round down) Integer.
      */
     public static Integer performDivisionAndCast(Double a, Double b) {
-        // Perform the division and cast (round down) off the result. test change.  
+        // Perform the division and cast (round down) off the result.  
         Double divisionResult = (Integer) math.floor(a/b);
 
         // Write the code for type casting the divisionResult to an Integer
